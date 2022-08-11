@@ -17,8 +17,12 @@ app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}))
 app.set('view engine', 'handlebars');
 
 //- Mongoose
-
-
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://localhost/blogapp").then(() =>{
+    console.log("Conectado ao Mongo!");
+}).catch((err) => {
+    console.log("Falha ao conectar-se ao Mongo: "+err);
+})
 //- Public
 app.use(express.static(path.join(__dirname, "public")))
 
