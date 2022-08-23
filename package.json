@@ -4,7 +4,8 @@
   "description": "Blog criado durante meus estudos de node.js, seguindo a playlist \"Curso de Node.js\" do canal \"Victor Lima - Guia do Programador\"",
   "main": "blogapp/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node blogapp/app.js"
   },
   "repository": {
     "type": "git",
