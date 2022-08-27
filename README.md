@@ -3,8 +3,9 @@ Blog simples criado durante meus estudos de node.js, seguindo a playlist "Curso 
 A aplicação pode ser acessada e utilizada no link: https://blogapp-node-prod.herokuapp.com/
 ## As principais tecnologias que compõem a aplicação neste repositório são:
 - Node.js
+- Express.js
 - Handlebars.js
+- Passport.js
 - MongoDB
 - Mongoose
 - Heroku
-- Passport.js
