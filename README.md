@@ -6,6 +6,7 @@ A aplicação pode ser acessada e utilizada no link: https://blogapp-node-prod.h
 - Express.js
 - Handlebars.js
 - Passport.js
+- Bootstrap
 - MongoDB
 - Mongoose
 - Heroku
